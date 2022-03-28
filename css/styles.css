@@ -11,7 +11,7 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
-	background-color: white;
+	background-color: #F2B8A2;
 }
 
 /* Changing the background colour for the header */
@@ -33,7 +33,11 @@ header {
 	text-decoration-color: #195947;
 }
 
-.grid {}
+footer {
+	color: #37848C;
+	background-color: #F2B8A2;
+	font-family: 'Bebas Neue', cursive;
+}
 
 /* Effect on social media buttons */
 
