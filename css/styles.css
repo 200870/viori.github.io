@@ -1,11 +1,16 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+</style>
+
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	background-color: white;
 }
 
@@ -13,13 +18,21 @@ body {
 
 header {
 	background-color: #A7D0D9;
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
 	background-color: #F2B8A2;
+	height: 40px;
+	font-family: 'Poppins', sans-serif;
+	color: #195947;
+	font-size: 20px;
+	text-decoration-color: #195947;
 }
+
 
 /* Effect on social media buttons */
 
