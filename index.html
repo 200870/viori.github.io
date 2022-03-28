@@ -17,11 +17,26 @@
   </head>
   <body>
 
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+   <title>Viori</title>
+  </head>
+  <body>
+
+    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
+      <div class="row">
+        <div class="col-md-8 col-lg-6 mx-auto">
+          <img src="images/logocolorful.png" height="200">
+
+          <h1 class="fw-light">A sentence about us</h1>
+        </div>
+      </div>
+    </header>
+    <!-- End of hero section -->
+
+        <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,20 +44,20 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PRODUCTS</a>
+              <a class="nav-link" href="products.html">Products</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                MORE
+                More
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Contact</a></li>
-                <li><a class="dropdown-item" href="#">Reviews</a></li>
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">My profile
+                <li><a class="dropdown-item" href="profile.html">My Profile
                 </a></li>
               </ul>
             </li>
@@ -52,17 +67,6 @@
     </nav>
     <!-- End of navigation bar -->
 
-
-    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <div class="row">
-        <div class="col-md-8 col-lg-6 mx-auto">
-          <h1 class="fw-light">VIORI</h1>
-          <p class="lead">A sentence about us.</p>
-        </div>
-      </div>
-    </header>
-    <!-- End of hero section -->
 
     <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
     <section class="container-fluid p-0">
@@ -123,10 +127,10 @@
         <!-- Card #1 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/productexample.jpg" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #1</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+              <h5 class="card-title">Product #1</h5>
+              <p class="card-text">Product #1 Description</p>
             </div>
             <div class="card-footer p-2 text-end">
               <a href="#" class="btn btn-primary">Learn more</a>
@@ -137,10 +141,10 @@
         <!-- Card #2 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/productexample.jpg" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #2</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+              <h5 class="card-title">Product #2</h5>
+              <p class="card-text">Product #2 Description</p>
             </div>
             <div class="card-footer p-2 text-end">
               <a href="#" class="btn btn-primary">Learn more</a>
@@ -151,10 +155,10 @@
         <!-- Card #3 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/productexample.jpg" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #3</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+              <h5 class="card-title">Product #3</h5>
+              <p class="card-text">Product #3 Description</p>
             </div>
             <div class="card-footer p-2 text-end">
               <a href="#" class="btn btn-primary">Learn more</a>
@@ -165,38 +169,10 @@
         <!-- Card #4 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/productexample.jpg" alt="Placeholder Image">
             <div class="card-body">
-              <h5 class="card-title">Card #4</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card #5 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #5</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card #6 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #6</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+              <h5 class="card-title">Product #4</h5>
+              <p class="card-text">Product #4 Description</p>
             </div>
             <div class="card-footer p-2 text-end">
               <a href="#" class="btn btn-primary">Learn more</a>
