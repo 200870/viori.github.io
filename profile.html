@@ -21,15 +21,14 @@
     <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
       <div class="row">
         <div class="col-md-8 col-lg-6 mx-auto">
-          <img src="images/logocolorful.png" height="200">
-
-          <h1 class="fw-light">A sentence about us</h1>
+                      <a href="index.html" target="_blank">
+              <img class="m-2" src="images/logocolorful.png" alt="Follow us on Instagram" width="175">
         </div>
       </div>
     </header>
     <!-- End of hero section -->
 
-        <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+               <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -39,22 +38,32 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="products.html">Products</a></li>
+                <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
+                </a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products.html">Products</a>
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="meettheteam.html">Meet the Team</a></li>
+                <li><a class="dropdown-item" href="contactus.html">Contact Us</a></li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                More
+                Design
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-                <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="profile.html">My Profile
-                </a></li>
+                <li><a class="dropdown-item" href="marketing.html">Marketing</a></li>
+                <li><a class="dropdown-item" href="design.html">Design Justification</a></li>
               </ul>
             </li>
           </ul>
