@@ -24,13 +24,17 @@ header {
 
 /* Changing the background color for the navigation bar */
 
-.navbar {
+.navbar ul{
 	background-color: #ffffff;
 	height: 40px;
 	font-family: 'Poppins', sans-serif;
 	color: #F2B885;
 	font-size: 20px;
 	text-decoration-color: #F2B885;
+	padding: 0;
+	margin: 0;
+}.navbar li{
+	display: inline-block
 }
 
 footer {
