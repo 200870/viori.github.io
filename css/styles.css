@@ -48,3 +48,16 @@ footer {
 footer a:hover {
 	opacity: .5;
 }
+
+nav { margin: 0 auto; 
+text-align: center;}
+
+#nav {
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    background-color: #2C64B4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
