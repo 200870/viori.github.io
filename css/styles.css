@@ -32,10 +32,14 @@ header {
 	font-size: 20px;
 	text-decoration-color: #F2B885;
 	padding: 0;
-	margin: 0;
-}.navbar li{
-	display: inline-block
+	margin: auto;
+	text-align: center;
 }
+
+  .navbar-nav .open .dropdown-menu {
+    background-color:#fffff;
+    font-family: 'Bebas Neue', cursive;
+  }
 
 footer {
 	color: #37848C;
@@ -47,17 +51,4 @@ footer {
 
 footer a:hover {
 	opacity: .5;
-}
-
-nav { margin: 0 auto; 
-text-align: center;}
-
-#nav {
-    position: absolute;
-    left: 0px;
-    height: 40px;
-    background-color: #2C64B4;
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
