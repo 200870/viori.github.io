@@ -36,11 +36,6 @@ header {
 	text-align: center;
 }
 
-  .navbar-nav .open .dropdown-menu {
-    background-color:#fffff;
-    font-family: 'Bebas Neue', cursive;
-  }
-
 footer {
 	color: #37848C;
 	background-color: #F2B8A2;
@@ -52,3 +47,5 @@ footer {
 footer a:hover {
 	opacity: .5;
 }
+
+
