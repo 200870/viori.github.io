@@ -10,6 +10,7 @@
 body {
 	font-family: 'Lora', serif
 	background-color: #F2B8A2;
+
 }
 
 /* Changing the background colour for the header */
@@ -32,6 +33,31 @@ header {
 	padding: 0;
 	margin: auto;
 	text-align: center;
+}
+
+body {
+  margin: 0
+}
+
+#design-cast {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member {
+  flex: 0 48%;
+  margin: 1% 1% 45px 1%;
+}
+
+.member img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (max-width:480px) {
+  .member {
+    flex: 0 100%
+  }
 }
 
 footer {
