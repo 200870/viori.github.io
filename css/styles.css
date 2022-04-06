@@ -1,12 +1,12 @@
 /* Importing a Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: 'Lora', serif;
+	font-family: 'Quicksand', sans-serif;
 	background-color: #ffffff;
 
 }
@@ -15,7 +15,7 @@ body {
 
 header {
 	background-color: #ffffff;
-	font-family: 'Lora', serif;
+	font-family: 'Quicksand', sans-serif;
 	text-align: center;
 }
 
@@ -24,7 +24,7 @@ header {
 .navbar ul{
 	background-color: #ffffff;
 	height: 40px;
-	font-family: 'Lora', serif
+	font-family: 'Quicksand', sans-serif;
 	color: #F2B885;
 	font-size: 20px;
 	text-decoration-color: #F2B885;
@@ -54,7 +54,7 @@ body {
 footer {
 	color: #37848C;
 	background-color: #F2B8A2;
-	font-family: 'Lora', serif
+	font-family: 'Quicksand', sans-serif;
 }
 
 /* Effect on social media buttons */
