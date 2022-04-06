@@ -1,14 +1,12 @@
 /* Importing a Google Font */
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-</style>
 
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: 'Lora', serif
+	font-family: 'Lora', serif;
 	background-color: #F2B8A2;
 
 }
@@ -40,15 +38,7 @@ body {
   margin: 0
 }
 
-#design-cast {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.member {
-  flex: 0 48%;
-  margin: 1% 1% 45px 1%;
-}
 
 .member img {
   max-width: 100%;
