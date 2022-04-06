@@ -1,14 +1,12 @@
 /* Importing a Google Font */
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-</style>
 
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: 'Lora', serif
+	font-family: 'Lora', serif;
 	background-color: #F2B8A2;
 
 }
