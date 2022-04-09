@@ -1,13 +1,23 @@
 /* Importing a Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 
 /* Changing the main font and background colour */
 
 body {
+<<<<<<< HEAD
 	font-family: 'Lora', serif;
 	background-color: #ffffff;
+=======
+<<<<<<< HEAD
+	font-family: Raleway, sans-serif;
+	background-color: white;
+=======
+	font-family: 'Quicksand', sans-serif;
+	background-color: #ffffff;
+>>>>>>> a2d3447acb00133b894bcee2bc35e9d4f48dc1e9
+>>>>>>> dc8a47be0d850133090b4de7e6b5d1f5594c8615
 
 }
 
@@ -15,7 +25,7 @@ body {
 
 header {
 	background-color: #ffffff;
-	font-family: 'Lora', serif;
+	font-family: 'Quicksand', sans-serif;
 	text-align: center;
 }
 
@@ -24,7 +34,7 @@ header {
 .navbar ul{
 	background-color: #ffffff;
 	height: 40px;
-	font-family: 'Lora', serif
+	font-family: 'Quicksand', sans-serif;
 	color: #F2B885;
 	font-size: 20px;
 	text-decoration-color: #F2B885;
@@ -54,7 +64,7 @@ body {
 footer {
 	color: #37848C;
 	background-color: #F2B8A2;
-	font-family: 'Lora', serif
+	font-family: 'Quicksand', sans-serif;
 }
 
 /* Effect on social media buttons */
@@ -93,105 +103,4 @@ footer a:hover {
   content: "";
   display: table;
   clear: both;
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif
-}
-
-body {
-    background-color: #0ff
-}
-
-.container {
-    background-color: rgb(232, 242, 245);
-    padding: 50px 40px 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    box-shadow: 5px 5px 25px #a7a7a7
-}
-
-.tag {
-    text-align: center;
-    font-size: 1.1rem
-}
-
-.fa-heart {
-    color: rgba(255, 230, 0, 0.959);
-    font-size: 30px
-}
-
-.card {
-    height: 320px;
-    padding: 10px 20px;
-    border: none;
-    box-shadow: -1px 3px 5px #a7a7a7
-}
-
-.testimonial {
-    font-size: 0.9rem;
-    line-height: 1.4rem;
-    font-weight: 500
-}
-
-.active-star {
-    color: #FBC02D;
-    margin-bottom: 8px
-}
-
-.active-star:hover {
-    color: #F9A825;
-    cursor: pointer
-}
-
-.profile {
-    padding-top: 10px
-}
-
-.name {
-    font-weight: 700
-}
-
-.designation {
-    font-size: 0.84rem;
-    font-weight: 600
-}
-
-.owl-carousel {
-    margin-bottom: 15px
-}
-
-.owl-carousel .owl-stage-outer {
-    padding: 40px 10px;
-    height: 380px
-}
-
-.owl-carousel .owl-item img {
-    width: 45px !important;
-    height: 45px;
-    border-radius: 50%;
-    object-fit: cover
-}
-
-.owl-theme .owl-nav [class*='owl-'] {
-    border-radius: 50% !important;
-    background: inherit !important;
-    border: 3px solid #bbb;
-    color: #bbb !important
-}
-
-.owl-theme .owl-nav [class*='owl-']:hover {
-    border: 3px solid #1010ca;
-    color: #1010ca !important
-}
-
-@media(max-width: 575.5px) {
-    .container {
-        margin: 0px;
-        padding: 20px
-    }
-}
 
