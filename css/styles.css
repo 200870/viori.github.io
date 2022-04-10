@@ -1,54 +1,43 @@
-/* Importing a Google Font */
+/*FONT*/
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 
-/* Changing the main font and background colour */
+/*MAIN FONT AND BACKGROUND COLOR*/
 
 body {
-<<<<<<< HEAD
-	font-family: 'Lora', serif;
-	background-color: #ffffff;
-=======
-<<<<<<< HEAD
-	font-family: Raleway, sans-serif;
-	background-color: white;
-=======
 	font-family: 'Quicksand', sans-serif;
 	background-color: #ffffff;
->>>>>>> a2d3447acb00133b894bcee2bc35e9d4f48dc1e9
->>>>>>> dc8a47be0d850133090b4de7e6b5d1f5594c8615
-
 }
 
-/* Changing the background colour for the header */
+/*HEADER*/
 
 header {
 	background-color: #ffffff;
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
+	height: 200px;
+	padding-bottom: 50px;
 }
 
-/* Changing the background color for the navigation bar */
+/*NAVIGATION BAR*/
 
 .navbar ul{
 	background-color: #ffffff;
-	height: 40px;
+	height: 20px;
 	font-family: 'Quicksand', sans-serif;
 	color: #F2B885;
 	font-size: 20px;
 	text-decoration-color: #F2B885;
-	padding: 0;
+	padding: 0px;
 	margin: auto;
-	text-align: center;
 }
 
+/*BODY*/
 
 body {
   margin: 0
 }
-
-
 
 .member img {
   max-width: 100%;
@@ -61,46 +50,35 @@ body {
   }
 }
 
+/*FOOTER */
+
 footer {
+	height: 100px;
 	color: #37848C;
 	background-color: #F2B8A2;
 	font-family: 'Quicksand', sans-serif;
 }
 
-/* Effect on social media buttons */
+/*SOCIAL MEDIA BUTTONS*/
 
 footer a:hover {
 	opacity: .5;
 }
 
+/* VISION AND VALUES */
+
 .column {
   float: left;
   width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-	background-color: #F2B8A2;
-	color: #ffffff;
-}
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   color: #37848C;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.container-fluid {
+	text-align: center;
+	color: #37848C;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
