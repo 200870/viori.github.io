@@ -7,12 +7,17 @@
 
 body {
 <<<<<<< HEAD
+	font-family: 'Lora', serif;
+	background-color: #ffffff;
+=======
+<<<<<<< HEAD
 	font-family: Raleway, sans-serif;
 	background-color: white;
 =======
 	font-family: 'Quicksand', sans-serif;
 	background-color: #ffffff;
 >>>>>>> a2d3447acb00133b894bcee2bc35e9d4f48dc1e9
+>>>>>>> dc8a47be0d850133090b4de7e6b5d1f5594c8615
 
 }
 
@@ -98,4 +103,4 @@ footer a:hover {
   content: "";
   display: table;
   clear: both;
-
+}
