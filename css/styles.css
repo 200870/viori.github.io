@@ -82,16 +82,21 @@ footer a:hover {
 
 .container-fluid {
 	text-align: center;
-	color: #37848C;
+	color: #ffffff;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }.px-2 {
 }
 
+.values {
+	color: #37848C; 
+}
+
+
 /*LINKS ON LANDING PAGE*/
 
 a:link {
-  color: #37848C;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -103,4 +108,7 @@ a:visited {
 
 a:hover {
   background-color: transparent;
+}.values {
 }
+
+
