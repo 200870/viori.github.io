@@ -87,3 +87,22 @@ footer a:hover {
 	padding-bottom: 30px;
 }.px-2 {
 }
+
+/*HAVE A QUESTION? ON LANDING PAGE*/
+
+a:link {
+  color: #37848C;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #37848C;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: transparent;
+}
