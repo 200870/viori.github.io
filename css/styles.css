@@ -92,7 +92,17 @@ footer a:hover {
 	color: #37848C; 
 }
 
+.geelika {
+	color: #37848c;
+}
 
+.lena {
+	color: #a7d0d9;
+}
+
+.radha {
+	color: #f2b885;
+}
 /*LINKS ON LANDING PAGE*/
 
 a:link {
@@ -112,3 +122,5 @@ a:hover {
 }
 
 
+.radha {
+}
