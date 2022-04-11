@@ -88,11 +88,10 @@ footer a:hover {
 }.px-2 {
 }
 
-/*HAVE A QUESTION? ON LANDING PAGE*/
+/*LINKS ON LANDING PAGE*/
 
 a:link {
   color: #37848C;
-  background-color: transparent;
   text-decoration: none;
 }
 
@@ -103,6 +102,5 @@ a:visited {
 }
 
 a:hover {
-  color: #ffffff;
   background-color: transparent;
 }
