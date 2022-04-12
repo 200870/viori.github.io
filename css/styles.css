@@ -303,3 +303,6 @@ font-family: 'Quicksand', sans-serif;
     border-radius: 12px;
 }
 
+.goback:hover {
+	color: #ffffff
+}
