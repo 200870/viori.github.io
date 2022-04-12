@@ -148,45 +148,45 @@ a:hover {
 }
 
 .buttonmae {
-background-color: white; 
-  color: #f2b885; 
+background-color: #f2b885; 
+  color: #ffffff; 
   border: 2px solid #f2b885;
 }
 
 .buttonmae:hover {
-  background-color: #f2b885;
-  color: white;
+  background-color: #ffffff;
+  color: #f2b885;
 }
 
 .buttonsophie{
-background-color: white; 
-  color: #f2bba2; 
+background-color: #f2bba2; 
+  color: #ffffff; 
   border: 2px solid #f2bba2;
 }
 
 .buttonsophie:hover {
-  background-color: #f2bba2;
-  color: white;
+  background-color: #ffffff;
+  color: #f2bba2;
 }
 
 .buttonkay {
-background-color: white; 
-  color: #A7D0D9; 
+background-color: #A7D0D9; 
+  color: #ffffff; 
   border: 2px solid #A7D0D9;
 }
 .buttonkay:hover {
-	background-color: #A7D0D9;
-  color: white;
+	background-color: #ffffff;
+  color: #A7D0D9;
 }
 
 .buttonjasmine {
-background-color: white; 
-  color: #37848c; 
+background-color: #37848c; 
+  color: #ffffff; 
   border: 2px solid #37848c;
 
 }
 
 .buttonjasmine:hover { 
-background-color: #37848c;
-  color: white;
+background-color: #ffffff;
+  color: #37848c;
 }
