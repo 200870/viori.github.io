@@ -224,13 +224,14 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #a7d0d9;
+
 }
 
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #f2bba2;
+  background-color: #ffffff;
   padding: 10px;
 }
 
@@ -269,3 +270,4 @@ input[type=submit]:hover {
 .buttoncon {
 border-radius: 13px;
 }
+
