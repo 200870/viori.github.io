@@ -204,7 +204,8 @@ background-color: #ffffff;
   box-sizing: border-box;
 }
 
-/* Style inputs */
+/* CONTACT US */
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -274,3 +275,31 @@ border-radius: 13px;
 .achter {
 	background-color: #f2bba2
 }
+
+/* SHOPPING CART */
+
+.checkoutlarge{
+font-family: 'Quicksand', sans-serif;
+    text-align: center;
+	color: #37848C;
+}
+
+.checkoutlarge2{
+	font-family: 'Quicksand', sans-serif;
+    text-align: center;
+	color: #37848C;
+}
+
+.cartmae{
+	color: #F2B8A2;
+}
+
+.container-checkout3 {
+    background-color: white;
+    padding-top: 34px;
+    padding-right: 34px;
+    padding-bottom: 34px;
+    padding-left: 34px;
+    border-radius: 12px;
+}
+
