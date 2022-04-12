@@ -152,6 +152,7 @@ background-color: #f2b885;
   color: #ffffff; 
   border: 2px solid #f2b885;
   border-radius: 13px;	
+	float: right
 }
 
 .buttonmae:hover {
@@ -163,7 +164,8 @@ background-color: #f2b885;
 background-color: #f2bba2; 
   color: #ffffff; 
   border: 2px solid #f2bba2;
-border-radius: 13px;	
+border-radius: 13px;
+	float: right
 }
 
 .buttonsophie:hover {
@@ -176,6 +178,7 @@ background-color: #A7D0D9;
   color: #ffffff; 
   border: 2px solid #A7D0D9;
 	 border-radius: 13px;	
+	float: right
 }
 .buttonkay:hover {
 	background-color: #ffffff;
@@ -187,6 +190,7 @@ background-color: #37848c;
   color: #ffffff; 
   border: 2px solid #37848c;
 	 border-radius: 13px;	
+	float: right
 
 }
 
