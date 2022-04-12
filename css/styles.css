@@ -215,7 +215,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #37848c;
+  color: white;;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -264,4 +265,7 @@ input[type=submit]:hover {
 
 .messageus {
 	color: #37848c
+}
+.buttoncon {
+border-radius: 13px;
 }
