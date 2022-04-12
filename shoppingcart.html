@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <title>Viori</title>
+  </head>
+  <body>
+
+    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
+      <div class="row">
+        <div class="col-md-8 col-lg-6 mx-auto">
+                      <a href="index.html" target="_blank">
+              <img class="m-2" src="images/logocolorful.png" alt="Follow us on Instagram" width="175">
+        </div>
+      </div>
+    </header>
+    <!-- End of hero section -->
+
+  <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="products.html">Products</a></li>
+                <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
+                </a></li>
+              </ul>
+            </li>
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="meettheteam.html">Meet the Team</a></li>
+                <li><a class="dropdown-item" href="contactus.html">Contact Us</a></li>
+              </ul>
+            </li>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="marketing.html">Marketing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navigation bar -->
+
+      <!--Checkout list -->
+    <main>
+      <div class="checkoutcontainer">
+
+        <!-- Checkout section -->     
+        <section>
+          <div class="px-4 px-lg-0">
+          <h1 class="checkoutlarge"><strong>SHOPPING CART</strong></h1>
+          </div>
+        </section>
+
+
+
+        <div class="pb-5">
+        <div class="container">
+          <div class="row">
+          <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
+
+
+            <div class="table-responsive">
+            <table class="table">
+              <thead>
+              <tr>
+                <th scope="col" class="border-0 bg-light">
+                <div class="p-2 text-uppercase">Product Name and Description</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                <div class="py-2 text-uppercase">Price</div>
+                </th>
+                <th scope="col" class="border-0 bg-light">
+                <div class="py-2 text-uppercase">Quantity</div>
+                </th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <th scope="row" class="border-0">
+                <div class="p-2">
+                  <img src="images/orange bottle f-02.png" alt="firstproduct" width="100" class="img-fluid rounded shadow-sm">
+                  <div class="ml-3 d-inline-block align-middle">
+                  <h4 class="mb-0"> <a href="products.html" class="text-dark d-inline-block align-middle"><strong>The Mae</strong></a></h4>
+                  <p class="mb-0" class="cartmae"><a href="products.html">Our first and signature scent, that makes young women all over the world feel amazing.</a></p>
+
+                  </div>
+                </div>
+                </th>
+                <td class="border-0 align-middle"><strong>€35</strong></td>
+                <td class="border-0 align-middle"><div class="quantity">
+          <input type="number" value="1" min="1" class="quantity-field">
+        </div></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                <div class="p-2">
+                  <img src="images/perfume dark-01.png" alt="yellow swimsuit" width="100" class="img-fluid rounded shadow-sm">
+                  <div class="ml-3 d-inline-block align-middle">
+                  <h4 class="mb-0"><a href="products.html" class="text-dark d-inline-block"><strong>The Jasmine</strong></a></h4>
+                  <p class="mb-0" class="cartjasmine"><a href="products.html">This fragrance is perfect for nights out, or evening dates to make a great first impression.</a></p>
+                  </div>
+                </div>
+                </th>
+                <td class="align-middle"><strong>€35</strong></td>
+                <td class="align-middle"><div class="quantity">
+          <input type="number" value="1" min="1" class="quantity-field">
+        </div></td>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+          </div>
+
+          <div class="row py-5 p-4 bg-white rounded shadow-sm">
+          <div class="col-lg-6">
+            <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold"><h4><strong>DISCOUNT CODE</strong></h4></div>
+            <div class="p-4">
+            <div class="input-group mb-4 border rounded-pill p-2" style="height:61px">
+              <input type="text" placeholder="Enter your Discount Code" aria-describedby="button-addon3" class="form-control border-0" style="height:30px">
+              <div class="input-group-append border-0">
+              </ul><a href="#" class="btn btn-white rounded-pill py-2 btn-block" style="background-color:#F2B885" style="height:100px">Apply Discount</a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold"><h4><strong>Order summary</strong></h4></div>
+
+            <div class="p-4">
+            <ul class="list-unstyled mb-4">
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order Subtotal </strong><strong>€70</strong></li>
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping</strong><strong>€10</strong></li>
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
+              <h5 class="font-weight-bold">€80</h5>
+              </li>
+            </ul><a href="#" class="btn btn-white rounded-pill py-2 btn-block" style="background-color:#F2B885">Proceed to checkout</a>
+            </div>
+          </div>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </main>
+
+ <!-- A footer with socials -->
+    <footer class="mt-5 py-4 bg-body">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p>
+          © 2022 Breda University of Applied Sciences
+        </p>
+        <ul class="list-unstyled d-flex align-items-center opacity-75">
+          <li>
+            <a href="https://www.instagram.com/vioriofficial/" target="_blank">
+              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@vioriofficial" target="_blank">
+              <img class="m-2" src="images/tiktok.png" alt="Follow us on TikTok" width="26">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- End of the grid -->
+    
+  </body>
+</html>
