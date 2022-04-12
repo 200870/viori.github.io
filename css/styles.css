@@ -43,9 +43,13 @@ body {
   margin: 0
 }
 
-.member img {
-  max-width: 100%;
-  display: block;
+.team {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 @media (max-width:480px) {
@@ -123,4 +127,10 @@ a:hover {
 
 
 .radha {
+}
+.team {
+}
+.text-team {
+	text-align: center;
+
 }
