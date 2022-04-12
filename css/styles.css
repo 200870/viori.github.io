@@ -146,3 +146,26 @@ a:hover {
 .jasmine {
 	color: #37848c;
 }
+
+.buttonmae {
+background-color: white; 
+  color: #f2b885; 
+  border: 2px solid #f2b885;
+}
+
+.buttonmae:hover {
+  background-color: #f2b885;
+  color: white;
+}
+
+.buttonsophie{
+background-color: white; 
+  color: #f2bba2; 
+  border: 2px solid #f2bba2;
+}
+
+.buttonsophie:hover {
+  background-color: #f2bba2;
+  color: white;
+}
+
