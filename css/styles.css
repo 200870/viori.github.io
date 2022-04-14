@@ -23,7 +23,6 @@ header {
 /*NAVIGATION BAR*/
 
 .navbar ul{
-	background-color: #ffffff;
 	height: 20px;
 	font-family: 'Quicksand', sans-serif;
 	color: #F2B885;
@@ -35,6 +34,7 @@ header {
 
 .dropdown-item {
 	background-color: #ffffff;
+	color: #37848C;
 }
 
 /*BODY*/
@@ -199,3 +199,116 @@ background-color: #37848c;
 background-color: #ffffff;
   color: #37848c;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* CONTACT US */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #37848c;
+  color: white;;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #a7d0d9;
+
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}.contact {
+}
+
+.contact {
+	color: #37848c
+}
+
+
+.messageus {
+	color: #37848c
+}
+.buttoncon {
+border-radius: 13px;
+}
+
+.achter {
+	background-color: #f2bba2
+}
+
+/* SHOPPING CART */
+
+.checkoutlarge{
+font-family: 'Quicksand', sans-serif;
+    text-align: center;
+	color: #37848C;
+}
+
+.checkoutlarge2{
+	font-family: 'Quicksand', sans-serif;
+    text-align: center;
+	color: #37848C;
+}
+
+.cartmae{
+	color: #F2B8A2;
+}
+
+.container-checkout3 {
+    background-color: white;
+    padding-top: 34px;
+    padding-right: 34px;
+    padding-bottom: 34px;
+    padding-left: 34px;
+    border-radius: 12px;
+}
+
+.goback:hover {
+	color: #ffffff
+		
+}
+
+.reachout {
+	color: #FFFFFF
+}
+

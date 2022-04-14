@@ -21,14 +21,14 @@
     <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
       <div class="row">
         <div class="col-md-8 col-lg-6 mx-auto">
-                      <a href="index.html" target="_blank">
-              <img class="m-2" src="images/logocolorful.png" alt="Follow us on Instagram" width="175">
+			<a href="index.html" target="_blank"> 
+              <img class="m-2" src="images/logocolorful.png" alt="Follow us on Instagram" width="175"></a>
         </div>
       </div>
     </header>
     <!-- End of hero section -->
 
-  <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+                    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -45,14 +45,13 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="products.html">Products</a></li>
                 <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
-                </a></li>
               </ul>
             </li>
              <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu" id="navbarDropdown1">
                 <li><a class="dropdown-item" href="meettheteam.html">Meet the Team</a></li>
                 <li><a class="dropdown-item" href="contactus.html">Contact Us</a></li>
               </ul>
@@ -66,9 +65,50 @@
       </div>
     </nav>
     <!-- End of navigation bar -->
-
+    
+<div class="container py-5 achter">
+  <div style="text-align:center">
+    <h2><strong class="contact">Contact Us</strong></h2>
+    <p class="messageus">Feel free to send us a message with questions!</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="images/skin.jpeg" style="width:100%" alt="Responsive image">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Continent</label>
+        <select id="country" name="country">
+      
+		  <option value="Europe">Europe</option>
+	      <option value="australia">Australia</option>
+			<option value="North America">North America</option>
+			<option value="South America">South America</option>
+			<option value="Asia">Asia</option>
+			<option value="Africa">Africa</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" class="buttoncon" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
      <!-- A footer with socials -->
-    <footer class="mt-5 py-4 bg-body">
+    <footer class="mt-5 py-4 bg-body sign">
       <div class="container d-flex justify-content-between align-items-center">
         <p>
           © 2022 Breda University of Applied Sciences
