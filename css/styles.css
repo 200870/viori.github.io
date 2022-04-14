@@ -28,13 +28,16 @@ header {
 	color: #F2B885;
 	font-size: 20px;
 	text-decoration-color: #F2B885;
-	padding: 20px;
 	margin: auto;
 }
 
 .dropdown-item {
 	background-color: #ffffff;
 	color: #37848C;
+}
+
+.dropdown-item:hover {
+	background-color: #F2B885;
 }
 
 /*BODY*/
