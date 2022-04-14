@@ -40,6 +40,10 @@ header {
 	background-color: #F2B885;
 }
 
+#nav {
+    z-index: 9999;
+}
+
 /*BODY*/
 
 body {
