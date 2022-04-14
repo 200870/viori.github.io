@@ -157,8 +157,7 @@ background-color: #f2b885;
 }
 
 .buttonmae:hover {
-  background-color: #ffffff;
-  color: #f2b885;
+  background-color: #edc7ab;
 }
 
 .buttonsophie{
@@ -170,7 +169,7 @@ border-radius: 13px;
 }
 
 .buttonsophie:hover {
-  background-color: #ffffff;
+  background-color: #f2cec0;
   color: #f2bba2;
 }
 
@@ -182,7 +181,7 @@ background-color: #A7D0D9;
 	float: right
 }
 .buttonkay:hover {
-	background-color: #ffffff;
+	background-color: #b9d2d6;
   color: #A7D0D9;
 }
 
@@ -196,7 +195,7 @@ background-color: #37848c;
 }
 
 .buttonjasmine:hover { 
-background-color: #ffffff;
+background-color: #62a0a3;
   color: #37848c;
 }
 
